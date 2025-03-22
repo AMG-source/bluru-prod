@@ -34,13 +34,11 @@ const DiscoverSection = () => {
             Discover
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Find your Dream Rental Property Today!
+            Find your Dream Property Today!
           </p>
           <p className="mt-2 text-gray-500 max-w-3xl mx-auto">
-            Searching for your dream rental property has never been easier. With
-            our user-friendly search feature, you can quickly find the perfect
-            home that meets all your needs. Start your search today and discover
-            your dream rental property!
+          Finding your dream rental has never been easier! Our intuitive search feature helps you quickly discover the perfect home that fits your needs. 
+          Start exploring today and secure your ideal rental effortlessly!
           </p>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 xl:gap-16 text-center">
@@ -49,19 +47,19 @@ const DiscoverSection = () => {
               imageSrc: "/landing-icon-wand.png",
               title: "Search for Properties",
               description:
-                "Browse through our extensive collection of rental properties in your desired location.",
+                "Explore a vast selection of rental properties in your preferred location with ease.",
             },
             {
               imageSrc: "/landing-icon-calendar.png",
               title: "Book Your Rental",
               description:
-                "Once you've found the perfect rental property, easily book it online with just a few clicks.",
+                "Found your ideal rental? Book it online effortlessly in just a few clicks!",
             },
             {
               imageSrc: "/landing-icon-heart.png",
               title: "Enjoy your New Home",
               description:
-                "Move into your new rental property and start enjoying your dream home.",
+                "Settle into your new rental and start enjoying your dream home today!",
             },
           ].map((card, index) => (
             <motion.div key={index} variants={itemVariants}>

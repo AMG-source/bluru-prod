@@ -45,16 +45,16 @@ const FeaturesSection = () => {
                 imageSrc={`/landing-search${3 - index}.png`}
                 title={
                   [
-                    "Trustworthy and Verified Listings",
-                    "Browse Rental Listings with Ease",
-                    "Simplify Your Rental Search with Advanced",
+                    "Reliable and Verified Rentals",
+                    "Effortless Rental Browsing Experience",
+                    "Find Your Perfect Rental with Smart Search",
                   ][index]
                 }
                 description={
                   [
-                    "Discover the best rental options with user reviews and ratings.",
-                    "Get access to user reviews and ratings for a better understanding of rental options.",
-                    "Find trustworthy and verified rental listings to ensure a hassle-free experience.",
+                    "Explore Top Rental Options Backed by User Reviews and Ratings.",
+                    "Make Informed Rental Choices with Real User Reviews and Ratings.",
+                    "Find Reliable, Verified Rentals for a Smooth and Stress-Free Experience.",
                   ][index]
                 }
                 linkText={["Explore", "Search", "Discover"][index]}
