@@ -68,7 +68,7 @@ const HeroSection = () => {
           Begin your search for the ideal home that fits your lifestyle perfectly.
           </h1>
           <p className="text-xl text-white mb-8">
-          "Discover a diverse selection of rental properties designed to match your lifestyle and preferences!"
+           Discover a diverse selection of rental properties designed to match your lifestyle and preferences!
           </p>
 
           <div className="flex justify-center">
